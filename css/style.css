@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@300&display=swap');
+
+body {
+    background-color: rgb(158, 234, 240);
+}
+
+.heading{
+    text-align: center;
+}
+
+.playground-heading {
+    color: darkcyan
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5rem; 
+}
+
+.main {
+    border: 3px solid gray;
+    width: 55%;
+    margin: 1rem auto;
+}
+
+.main div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 2rem auto;
+}
+
+#red {
+    border-color: red;
+}
+
+#green {
+    border-color: green;
+}
+
+#blue {
+    border-color: blue;
+}
+
+.footer {
+    color: blueviolet;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 2rem;
+    text-align: center
+}
